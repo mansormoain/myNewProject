@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+body{padding:0;margin:0;font-family:arial,helvetica, sans-serif;}
+.nav{background:#e9ecef;width:4in;float:left;margin:10px;height:6.6in;margin:0;padding:0;position:fixed;}
+.nav a{padding:20px 10px;margin:0;display:block;border-bottom:1px solid white;color:#212529;text-decoration:none;}
+.nav header{padding:10px;margin-top:20px;font-size:20px;text-align:left;}
+.divin{padding:0;margin:0;background:white;color:#212529;float:left;margin:10px;width:8in;position:absolute;left:4in;}
+.divin header{color:#212529;font-size:20px;padding:20px;border-bottom:1px solid #e9ecef;}
+.divin p{color:#1a1a2e;padding:10px 20px;margin:0;font-size:17px;}
+.divin code{padding:10px 20px;margin-left:40px;margin-top:20px;background:#e9ecef;color:#212529;}
+@media screen and (max-width:800px){
+.nav{display:none;}
+.divin{position:relative;left:0;}
+}
+</style>
+</head>
+<body>
+<nav id="navbar" class="nav">
+<header class="">Programing languages</header>
+<a href="javascript::void(0)" class="nav-link" id="ex-link" style="display:none;">Show</a>
+<a href="#Python" class="nav-link">Python</a>
+<a href="#Javascript" class="nav-link">Javascript</a>
+<a href="#Ruby" class="nav-link">Ruby</a>
+<a href="#Perl" class="nav-link">Perl</a>
+<a href="#PHP" class="nav-link">PHP</a>
+</nav>
+<main id="main-doc" class="divin">
+<section class="main-section" id="Python"><header>Python</header><p>Python is a dynamicly typed programing language that can handle many problems</p><p>Here are some use of python<br><ul><li>Back-end develpment</li><li>AI powered apps</li></ul><code>print("how are you")</code></p></section>
+<section class="main-section" id="Javascript"><header>Javascript</header><p>Java-script is the language of web about 90% of websites use it</p><p>Here are some use of javascript<ul><li>full-stack web development</li><li>easy to learn and get short time to code</li></ul><code>console.log("how are you");</code></p></section>
+<section class="main-section" id="Ruby"><header>Ruby</header><p>High level language use in various place</p><p>here are some use of rubby<ul><li>higley used in complicated projects</li><li>great libraries for web development</li></ul><code>puts "helloworld"</code></p></section>
+<section class="main-section" id="Perl"><header>Perl</header><p>Is a high level dynamic typed programing language.</p><p>Here are some use of perl<ul><li>Creating highley scalable apps</li><li>highley used in web development</li></ul><code>print("helloworld\n");</code></p></section>
+<section class="main-section" id="PHP"><header>PHP</header><p>Is a programming language used for creating websites</p><p>Here are some use of PHP<ul><li>most websites in internet use PHP</li><li>PHP is easy to learn and no time to code</li></ul><code>echo "helloworld";</code></p></section>
+</main>
+
+</body>
+</html>
